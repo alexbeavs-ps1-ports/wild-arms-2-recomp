@@ -1,0 +1,28 @@
+{
+  "disc_count": 2,
+  "verdict": "data-only",
+  "differing_program_fields": [],
+  "warnings": [],
+  "discs": [
+    {
+      "index": 1,
+      "cue_name": "Wild Arms 2 (USA) (Disc 1).cue",
+      "cue_path": "disc/Wild Arms 2 (USA) (Disc 1).cue",
+      "serial": "SCUS-94484",
+      "boot_exe": "SCUS_944.84",
+      "entry_pc": "0x800295E8",
+      "track_count": 1,
+      "required_disc_fp": "e0ce93ac7c325c41cd0f220806150deb08baa7ebad7aa5f6bed874244ec8fa5e"
+    },
+    {
+      "index": 2,
+      "cue_name": "Wild Arms 2 (USA) (Disc 2).cue",
+      "cue_path": "disc/Wild Arms 2 (USA) (Disc 2).cue",
+      "serial": "SCUS-94498",
+      "boot_exe": "SCUS_944.98",
+      "entry_pc": "0x800295E8",
+      "track_count": 1,
+      "required_disc_fp": "6928a3b7ce2b3b03585e0cd271fb2e9617ee1995415542b0747a32e37db66219"
+    }
+  ]
+}
