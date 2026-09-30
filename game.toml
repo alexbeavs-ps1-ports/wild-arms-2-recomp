@@ -4,9 +4,14 @@ name = "Wild Arms 2"
 id = "SCUS-94484"
 players = 1
 exe = "disc/SCUS_944.84"
+disc = "disc/Wild Arms 2 (USA) (Disc 1).cue"
 discs = [
     "disc/Wild Arms 2 (USA) (Disc 1).cue",
     "disc/Wild Arms 2 (USA) (Disc 2).cue",
+]
+disc_serials = [
+    "SCUS-94484",
+    "SCUS-94498",
 ]
 load_address = "0x80011124"
 entry_pc = "0x800295E8"
@@ -18,15 +23,18 @@ out_dir = "disc"
 bin_name = "Wild Arms 2 (USA) (Disc 1).bin"
 cue_name = "Wild Arms 2 (USA) (Disc 1).cue"
 boot_exe = "SCUS_944.84"
-known_sizes = [515619552]
+known_sizes = [515619552, 562311456]
 known_md5 = [
   "6f087363c1ed530464d4614d0dafc7e3",
+  "67fe49cd4a3614b03024bbe9abe34096",
 ]
 known_sha1 = [
   "85479cd7045cca3404aca702e109b97fda4e5ee7",
+  "276f4952644a155be550d62b5ae2c72a9e0e8944",
 ]
 known_crc32 = [
   "4321aa8d",
+  "32154aae",
 ]
 
 [recompiler]
