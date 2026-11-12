@@ -1,0 +1,75 @@
+{
+  "format_version": 1,
+  "game": {
+    "name": "Wild Arms 2",
+    "id": "SCUS-94484",
+    "boot_exe": "SCUS_944.84"
+  },
+  "marketing": {
+    "description": "",
+    "publisher": "",
+    "year": "",
+    "region": "USA",
+    "players": 1
+  },
+  "rom_identity": {
+    "cue_name": "Wild Arms 2 (USA) (Disc 1).cue",
+    "bin_name": "Wild Arms 2 (USA) (Disc 1).bin",
+    "track_counts": [
+      1,
+      1
+    ],
+    "require_cue": true,
+    "data_track": {
+      "size": 515619552,
+      "md5": "6f087363c1ed530464d4614d0dafc7e3",
+      "sha1": "85479cd7045cca3404aca702e109b97fda4e5ee7",
+      "crc32": "4321aa8d"
+    },
+    "disc_fp": "e0ce93ac7c325c41cd0f220806150deb08baa7ebad7aa5f6bed874244ec8fa5e",
+    "discs": [
+      {
+        "index": 1,
+        "cue_name": "Wild Arms 2 (USA) (Disc 1).cue",
+        "bin_name": "Wild Arms 2 (USA) (Disc 1).bin",
+        "size": 515619552,
+        "md5": "6f087363c1ed530464d4614d0dafc7e3",
+        "sha1": "85479cd7045cca3404aca702e109b97fda4e5ee7",
+        "crc32": "4321aa8d",
+        "track_count": 1,
+        "serial": "SCUS-94484",
+        "disc_fp": "e0ce93ac7c325c41cd0f220806150deb08baa7ebad7aa5f6bed874244ec8fa5e"
+      },
+      {
+        "index": 2,
+        "cue_name": "Wild Arms 2 (USA) (Disc 2).cue",
+        "bin_name": "Wild Arms 2 (USA) (Disc 2).bin",
+        "size": 562311456,
+        "md5": "67fe49cd4a3614b03024bbe9abe34096",
+        "sha1": "276f4952644a155be550d62b5ae2c72a9e0e8944",
+        "crc32": "32154aae",
+        "track_count": 1,
+        "serial": "SCUS-94498",
+        "disc_fp": "6928a3b7ce2b3b03585e0cd271fb2e9617ee1995415542b0747a32e37db66219"
+      }
+    ]
+  },
+  "exe": {
+    "load_address": "0x80011124",
+    "entry_pc": "0x800295E8",
+    "text_size": "0x0002B800",
+    "stack_base": "0x801FFFF0"
+  },
+  "seeds": {
+    "count": 285,
+    "source": "boot_exe_jal"
+  },
+  "warnings": [
+    "cue has only 1 TRACK \u2014 Track-01-only dumps fail multi-track netplay/catalog gates; prefer a full Redump cue."
+  ],
+  "notes": [
+    "entry_pc/load_address/text_size/stack_base taken from PS-X EXE header.",
+    "seeds are first-pass boot-EXE JAL targets (+ entry); expect to grow as overlays / runtime paths are discovered.",
+    "required_disc_fp is psxrecomp-toc-v1 (matches runtime DiscIdentity)."
+  ]
+}
